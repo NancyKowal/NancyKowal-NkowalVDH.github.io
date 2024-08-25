@@ -164,6 +164,7 @@
 /* ************************************ */
 
 .section-why {
+  padding: 14rem 0 0 0 ;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -176,9 +177,7 @@
   column-gap: 8.4rem;
 }
 
-.personaltraining-container {
-  padding: 14rem 9.6rem 0 9.6rem ;
-}
+
 
 .pts-text {
   font-size: 1.8rem;
