@@ -97,7 +97,7 @@
 /* ************************************ */
 
 .section-hero {
-  padding: 8rem 0 4.8rem 0;
+  padding: 14rem 0 4.8rem 0;
 }
 .hero {
   margin: 0 auto;
@@ -122,7 +122,7 @@
 
 .fred {
   margin: 0 auto;
-  padding: 4.8rem 0 6.4rem 0;
+  padding: 16rem 0 6.4rem 0;
   max-width: 130rem;
 }
 .fred-img-box {
@@ -177,7 +177,7 @@
 }
 
 .personaltraining-container {
-  padding: 9.6rem;
+  padding: 14rem;
 }
 
 .pts-text {
@@ -217,7 +217,7 @@
 /* ************************************ */
 
 .section-pricing {
-  padding: 9.6rem 0 9.6rem 0;
+  padding: 14rem 0 9.6rem 0;
   margin: 0 auto;
   max-width: 130rem;
 }
@@ -371,7 +371,7 @@
 /* SECTION-CTA  */
 /* ************************************ */
 .section-cta {
-  padding: 4.8rem 0 12.8rem;
+  padding: 14rem 0 12.8rem;
   background-image: url(../img/achtergrond\ gyp\ op\ 77.png);
 
   background-size: cover;
@@ -388,6 +388,7 @@
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
   color: #c6daee;
+  
 }
 
 .cta.heading-secondary {
