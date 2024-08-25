@@ -164,7 +164,7 @@
 /* ************************************ */
 
 .section-why {
-  padding: 14rem 0 0 0 ;
+  padding: 10rem 0 0 0 ;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -201,6 +201,7 @@
   display: block;
   width: 100%;
   transition: all 0.4s;
+  border-radius: 9px;
 }
 
 .gallery-item img:hover {
@@ -216,7 +217,7 @@
 /* ************************************ */
 
 .section-pricing {
-  padding: 14rem 0;
+  padding: 11rem 0;
   margin: 0 auto;
   max-width: 130rem;
 }
@@ -302,7 +303,7 @@
 /* ************************************ */
 
 .section-how {
-  padding: 14rem 0 ;
+  padding: 10rem 0 ;
   max-width: 130rem;
 }
 
@@ -311,8 +312,8 @@
   max-width: 140rem;
   margin: 0 auto;
   align-items: center;
-  border-top: rgba(66, 136, 150, 0.171) solid 0.3rem;
-  border-bottom: rgba(66, 136, 150, 0.171) solid 0.3rem;
+  border-top: rgba(66, 136, 150, 0.068) solid 0.1rem;
+  border-bottom: rgba(66, 136, 150, 0.055) solid 0.1rem;
   overflow: hidden;
 }
 .step-text-box {
@@ -369,24 +370,23 @@
 /* SECTION-CTA  */
 /* ************************************ */
 .section-cta {
-  padding: 14rem 0 9.6rem 0;
+  padding: 10rem 0 9.6rem 0;
 
  }
 
  .cta-container{
   padding: 3rem;
-  background-color: #5f9ba5;
+  
   border-radius: 9px;
-   -webkit-box-shadow: 3px 5px 15px 5px rgba(0,0,0,0.41); 
-  box-shadow: 3px 5px 15px 5px rgba(0,0,0,0.41); 
+   -webkit-box-shadow: 3px 5px 15px 5px rgba(49, 30, 30, 0.247); 
+  box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.199); 
   display: grid;
   grid-template-columns: 2fr 1fr;
   column-gap: 1rem;
   justify-items: center;
   align-items: center;
  }
-
-  
+ 
  
  .cta.heading-secondary {
    color: #c6daee;
@@ -398,13 +398,17 @@
    line-height: 1.8;
    margin-bottom: 4.8rem;
  }
+
+ .cta-img-box{
+  border-radius: 9px;
+ }
  
 /* ************************************ */
 /* FOOTER */
 /* ************************************ */
 
 .footer {
-  padding: 14rem 8rem 8rem 16rem;
+  padding: 8rem 0 8rem 0;
 }
 
 .grid--footer {
