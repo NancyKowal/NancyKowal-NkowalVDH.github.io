@@ -122,7 +122,7 @@
 
 .fred {
   margin: 0 auto;
-  padding: 16rem 0 6.4rem 0;
+  padding: 14rem 0 6.4rem 0;
   max-width: 130rem;
 }
 .fred-img-box {
@@ -177,7 +177,7 @@
 }
 
 .personaltraining-container {
-  padding: 14rem 9.6rem 9.6rem 9.6rem ;
+  padding: 14rem 9.6rem 0 9.6rem ;
 }
 
 .pts-text {
@@ -217,7 +217,7 @@
 /* ************************************ */
 
 .section-pricing {
-  padding: 14rem 0 9.6rem 0;
+  padding: 14rem 0;
   margin: 0 auto;
   max-width: 130rem;
 }
@@ -303,7 +303,7 @@
 /* ************************************ */
 
 .section-how {
-  padding: 14rem 0 9.6rem 0;
+  padding: 14rem 0 ;
   max-width: 130rem;
 }
 
@@ -311,11 +311,9 @@
   /* 1140px is also ver0y much used */
   max-width: 140rem;
   margin: 0 auto;
-  padding: 9.6rem 3rem 9.6rem 3rem;
   align-items: center;
   border-top: rgba(66, 136, 150, 0.171) solid 0.3rem;
   border-bottom: rgba(66, 136, 150, 0.171) solid 0.3rem;
-
   overflow: hidden;
 }
 .step-text-box {
