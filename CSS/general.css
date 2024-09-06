@@ -77,7 +77,7 @@ _  SPACING SYSTEM (px)
 }
 
 .grid:last-child {
-  padding-bottom: 9.6;
+  padding-bottom: 9.6rem;
 }
 
 .grid:not(:last-child) {
