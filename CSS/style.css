@@ -74,7 +74,7 @@
 /* MOBILE NAVIGATION */
 
 /* STICKY NAVIGATION  */
-/* .sticky .header {
+.sticky .header {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -85,7 +85,7 @@
   box-shadow: 0 1.2rem 3.2rem rgb(0, 0, 0, 0.06);
   z-index: 9999;
   background: rgb(33, 38, 41);
-} */
+}
 
 .section-hero {
   margin-top: 9.6rem;
@@ -464,6 +464,7 @@ p.footer-heading {
     gap: 3rem;
   }
 
+
   .hero{
     max-width: 100rem;
     grid-template-columns: 1fr 0.7fr;
@@ -515,9 +516,6 @@ p.footer-heading {
   display: block;
 
 }
-
-
-
 
 .main-nav{
   position: absolute;
