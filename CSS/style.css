@@ -478,7 +478,7 @@ p.footer-heading {
 
   .section-why {
     padding: 4rem 4rem 0 4rem ;
-    grid-template-columns: 35fr 15fr;
+    grid-template-columns: 1fr;
     align-items: center;
   }
 
