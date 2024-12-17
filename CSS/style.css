@@ -509,7 +509,14 @@ p.footer-heading {
 }
 
 
-/* ******Below 800px**** */
+/* ***********************************BELOW 800PX**************************** */
+
+html{
+  font-size: 47%;
+ 
+}
+
+/* NAV */
 
 @media (max-width:50em){
 .mobile-nav-btn{
@@ -551,7 +558,6 @@ p.footer-heading {
   transform: translateX(0);
 }
 
-
 .main-nav-list{
   flex-direction: column;
   gap: 4.8rem;
@@ -573,13 +579,133 @@ p.footer-heading {
   display: none;
 }
  
-
+/* HERO SECTION */
+.hero {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 1rem;
 
 }
 
+.section-discription {
+  margin-bottom: 6rem;
+}
+
+.fred{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 0 3.2rem 0 3.2rem;
+
+  row-gap: 0;
+
+}
+.fred-img-box{
+  grid-row: 2;
+
+}
+
+.fred-image {
+  width: 55%;
+ 
+}
+
+.heading-secondary {
+ margin-bottom: 3.2rem;
+
+}
+
+.section-why
+{
+  padding-bottom: 6rem;
+}
+/* PRICING SECTION  */
+.section-pricing{
+  padding-bottom: 6rem;
+}
+
+.gallery{
+padding-top: 3.2rem; 
+}
+
+.container {
+  grid-template-columns: 1fr;
+
+}
+
+.included{
+ margin: 0 auto;
+}
 
 
+.grid:not(:last-child) {
+padding-bottom: 4rem;
+}
+
+/* CTA SECTION */
 
 
+.cta-container{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr  2fr;
+  padding: 0;
 
+ }
+ .cta-img-box{
+  padding-top: 2rem;
+  width: 80%;
+ }
+
+
+ .heading-secondary-cta{
+  text-align: center;
+  font-size: 2.8rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+/* 
+ .btn,
+ .btn:link,
+ .btn:visited {
+  margin-right: 0.5rem;
+  margin-bottom:0.5rem;
+ } */
+.button-contact{
+  margin-left: 11rem;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 8rem 3.2rem 0 3.2rem;
+}
+
+.grid--footer {
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 1.6rem;
+}
+
+.footer-heading {
+  margin-bottom: 2rem;
+}
+
+.adress {
+  margin-bottom: 1rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+}
 
