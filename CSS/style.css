@@ -319,10 +319,15 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   column-gap: 1rem;
-  justify-items: center;
+  justify-items: start;
   align-items: center;
  }
  
+ .cta-text-box {
+  display: flex;
+  flex-direction: column;
+ 
+}
  
 
  .cta-text {
@@ -331,8 +336,15 @@
    margin-bottom: 4.8rem;
  }
 
+ .button-contact {
+  display: flex;
+  gap: 0.5rem; /* Voeg hier de gewenste ruimte in */
+  flex-wrap: wrap;
+}
+
  .cta-img-box{
   border-radius: 9px;
+  align-content: center;
  }
  
 /* ************************************ */
@@ -494,7 +506,7 @@ p.footer-heading {
 
  .heading-secondary-cta{
   font-size: 3rem;
-  ine-height: 1.05;
+  line-height: 1.05;
   margin-bottom: 3.2rem;
 }
 
@@ -510,11 +522,14 @@ p.footer-heading {
 
 
 /* ***********************************BELOW 800PX**************************** */
-
-html{
-  font-size: 47%;
- 
+.heading-primary{
+  font-size: 3.4rem;
 }
+
+.heading-tertiary{
+  font-size: 1.5rem;
+} 
+
 
 /* NAV */
 
@@ -579,18 +594,30 @@ html{
   display: none;
 }
  
-/* HERO SECTION */
+/* HERO query */
 .hero {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   row-gap: 1rem;
-
+  
 }
+ 
 
 .section-discription {
-  margin-bottom: 6rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+ 
+}
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 1.2rem;
+  padding: 1.6rem 1.6rem;
+  margin-left: 0.5rem;
+  margin-top: 1.6rem;
 }
 
+/* FRED query */
 .fred{
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -614,17 +641,37 @@ html{
 
 }
 
+/* SECTION WHY */
 .section-why
 {
-  padding-bottom: 6rem;
-}
-/* PRICING SECTION  */
-.section-pricing{
+  padding-top: 0;
   padding-bottom: 6rem;
 }
 
+.pts-name {
+  font-size: 1.8rem;
+  color: #c6daee;
+}
+
+.pts-text{
+  font-size: 1.6rem;
+}
+
+.personaltraining {
+  row-gap: 2.8rem;
+  column-gap: 4.2rem;
+}
+
+/* PRICING SECTION  */
+.section-pricing{
+padding-top:7.6rem ;
+padding-bottom: 3.4rem;
+}
+
+
 .gallery{
 padding-top: 3.2rem; 
+
 }
 
 .container {
@@ -649,33 +696,36 @@ padding-bottom: 4rem;
   margin-right: 4rem;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr  2fr;
+  grid-template-areas: "text" "img";
+  row-gap: 2rem;
   padding: 0;
 
  }
- .cta-img-box{
-  padding-top: 2rem;
-  width: 80%;
- }
-
-
+ 
  .heading-secondary-cta{
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
+  font-weight: 200;
   line-height: 1.05;
-  margin-bottom: 3.2rem;
+  margin-bottom: 1.2rem;
+
 }
 
-/* 
- .btn,
- .btn:link,
- .btn:visited {
-  margin-right: 0.5rem;
-  margin-bottom:0.5rem;
- } */
+
 .button-contact{
-  margin-left: 11rem;
+  margin-left: 4.5rem;
 }
+
+.btn, .btn:link, .btn:visited {
+ 
+  font-size: 1.6rem;
+  padding: 1rem 3.2rem 1rem 3.2rem;
+
+}
+.cta-img-box{
+  margin-left: 4rem;
+  width: 80%;
+ }
 
 /* FOOTER */
 
