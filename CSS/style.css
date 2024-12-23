@@ -154,16 +154,11 @@
 }
 
 /* ************************************ */
-/* PERSONAL TRRAINING */
+/* SECTION-WHY  */
 /* ************************************ */
-
 .pts .pts-name {
   color: #5f9ba5;
 }
-/* ************************************ */
-/* SECTION-WHY  */
-/* ************************************ */
-
 .section-why {
   padding: 10rem 0 10rem 0 ;
   display: grid;
@@ -313,6 +308,7 @@
 
  .cta-container{
   padding: 3rem;
+  background-color: #5f9ba5;
   
   border-radius: 9px;
   
@@ -462,7 +458,25 @@ p.footer-heading {
 }
 
   }
- 
+
+  
+/* ******Below 1450px**** */
+.fred {
+  margin: 0 auto;
+  padding: 8rem 1rem 0 0;
+  max-width: 100rem;
+}
+
+.section-why {
+  padding: 4rem 6rem 0 6rem ;
+}
+
+.cta-container{
+  margin-left: 8rem;
+  margin-right: 8rem;
+  grid-template-columns: 2fr 1.5fr;
+ }
+
 
 /* ******Below 1150px**** */
 
@@ -479,20 +493,33 @@ p.footer-heading {
 
   .hero{
     max-width: 100rem;
+    margin-left:2rem;
+
     grid-template-columns: 1fr 0.7fr;
     gap: 4rem;
   }
 
   .fred {
-    margin: 0 auto;
-    padding: 8rem 8rem 0 0;
-    max-width: 130rem;
+    padding: 4rem 8rem 0 0;
   }
-
+  .grid:last-child {
+    padding-bottom: 3.6rem;
+}
   .section-why {
-    padding: 4rem 4rem 0 4rem ;
     grid-template-columns: 1fr;
     align-items: center;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 0.3fr);
+    gap: 4rem;
+    padding: 4rem 0 4rem 0;
+
+  }
+  .section-pricing {
+    padding:9.6rem 2rem 9.6rem 2rem; 
+    
   }
 
 .heading-tertiary{
@@ -500,8 +527,12 @@ p.footer-heading {
 } 
 
  .cta-container{
-  margin-left: 8rem;
-  margin-right: 8rem;
+  padding-top: 4rem;
+  
+ }
+
+ .cta-img-box{
+  width: 100%;
  }
 
  .heading-secondary-cta{
@@ -522,7 +553,7 @@ p.footer-heading {
 
 
 /* ***********************************BELOW 800PX**************************** */
-.heading-primary{
+/* .heading-primary{
   font-size: 3.4rem;
 }
 
@@ -758,4 +789,4 @@ padding-bottom: 4rem;
 }
 
 }
-
+ */
