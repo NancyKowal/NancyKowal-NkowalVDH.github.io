@@ -19,6 +19,9 @@
 /* ************************************ */
 /* NAVIGATION  */
 /* ************************************ */
+
+
+
 .main-nav-list {
   display: inline-block;
   list-style: none;
@@ -352,6 +355,7 @@
 }
 
 .grid--footer {
+  display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
   
 }
@@ -361,6 +365,8 @@ p.footer-heading {
 .footer-logo {
   display: block;
   margin-bottom: 3.2rem;
+ 
+
 }
 .logo-col,
 .adress-col,
@@ -368,6 +374,7 @@ p.footer-heading {
 .nav-ref {
   display: flex;
   flex-direction: column;
+
 }
 
 .social-links {
@@ -417,13 +424,17 @@ p.footer-heading {
   font-size: 1.6rem;
   color: #c6daee;
   transition: all 0.3s;
+  
 }
 
 .footer-link:hover,
 .footer-link:active {
   color:#5f9ba5;
+
 }
 
+
+/* ************************************************************************************************************************************************************************************************************************************************************ */
 /* ************************************ */
 /* MEDIA QUERRIES */
 /* ************************************ */ 
@@ -501,9 +512,12 @@ p.footer-heading {
 
   .fred {
     padding: 4rem 8rem 0 0;
+   
   }
+
+ 
   .grid:last-child {
-    padding-bottom: 3.6rem;
+    padding-bottom: 9.6rem;
 }
   .section-why {
     grid-template-columns: 1fr;
@@ -549,20 +563,20 @@ p.footer-heading {
   margin-bottom:0.5rem;
  }
 
+ 
+.footer {
+  padding: 8rem 3.2rem 0 3.2rem;
+}
+
 }
 
 
-/* ***********************************BELOW 800PX**************************** */
-/* .heading-primary{
-  font-size: 3.4rem;
-}
-
-.heading-tertiary{
-  font-size: 1.5rem;
-} 
+/* ***********************************BELOW 770PX**************************** */
 
 
-/* NAV */
+
+
+/* NAV QUERY */
 
 @media (max-width:50em){
 .mobile-nav-btn{
@@ -651,9 +665,8 @@ p.footer-heading {
 /* FRED query */
 .fred{
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.8fr 1fr;
   padding: 0 3.2rem 0 3.2rem;
-
   row-gap: 0;
 
 }
@@ -676,7 +689,7 @@ p.footer-heading {
 .section-why
 {
   padding-top: 0;
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
 }
 
 .pts-name {
@@ -721,47 +734,15 @@ padding-bottom: 4rem;
 
 /* CTA SECTION */
 
-
-.cta-container{
-  margin-left: 4rem;
-  margin-right: 4rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "text" "img";
-  row-gap: 2rem;
-  padding: 0;
-
- }
- 
- .heading-secondary-cta{
-  text-align: center;
-  font-size: 2.4rem;
-  font-weight: 200;
-  line-height: 1.05;
-  margin-bottom: 1.2rem;
+.heading-secondary-cta{
+  font-size: 2rem;
 
 }
-
-
-.button-contact{
-  margin-left: 4.5rem;
-}
-
-.btn, .btn:link, .btn:visited {
- 
-  font-size: 1.6rem;
-  padding: 1rem 3.2rem 1rem 3.2rem;
-
-}
-.cta-img-box{
-  margin-left: 4rem;
-  width: 80%;
- }
 
 /* FOOTER */
 
 .footer {
-  padding: 8rem 3.2rem 0 3.2rem;
+  padding: 8rem 3.2rem 0 6rem;
 }
 
 .grid--footer {
@@ -789,4 +770,68 @@ padding-bottom: 4rem;
 }
 
 }
- */
+ 
+/*********************** BELOW 480PX *****************************************/
+
+@media (max-width:30em){
+.heading-primary,
+.heading-secondary{
+  font-size: 3.4rem;
+
+}
+
+.section-hero {
+    padding: 14rem 0 0 0;
+}
+
+.personaltraining {
+  row-gap: 2rem;
+  column-gap: 2.2rem;
+}
+.gallery {
+  display: grid
+;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  padding: 4rem 0 4rem 0;
+}
+
+.pricing-plan {
+  border-radius: 11px;
+  height: 50rem;
+}
+.pricing-plan--short, .pricing-plan--complete {
+  padding: 2rem;
+
+}
+
+.cta-container{
+  min-height: 38rem;
+  grid-template-columns: 1fr;
+
+  padding-top: 3rem;
+}
+
+.heading-secondary-cta{
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+
+}
+
+.button-contact {
+align-self: center;
+
+
+}
+
+.grid--footer {
+  grid-template-columns: 1fr;
+  text-align: center;
+  row-gap: 6rem;
+}
+.logo-col{
+  row-gap: 1rem;
+  align-items: center;
+}
+}
