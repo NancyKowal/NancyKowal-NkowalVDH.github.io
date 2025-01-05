@@ -36,11 +36,13 @@
   color: #c6daee;
   font-weight: 400;
   font-size: 1.8rem;
+  
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #428896;
+
 }
 
 .main-nav-link.nav-cta:link,
@@ -835,3 +837,6 @@ align-self: center;
   align-items: center;
 }
 }
+
+
+/*********************** BELOW 325PX *****************************************/
