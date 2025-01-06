@@ -687,7 +687,7 @@ p.footer-heading {
 
 }
 
-/* SECTION WHY */
+/* SECTION WHY query */
 .section-why
 {
   padding-top: 0;
@@ -708,7 +708,7 @@ p.footer-heading {
   column-gap: 4.2rem;
 }
 
-/* PRICING SECTION  */
+/* PRICING SECTION query */
 .section-pricing{
 padding-top:7.6rem ;
 padding-bottom: 3.4rem;
@@ -741,7 +741,7 @@ padding-bottom: 4rem;
 
 }
 
-/* FOOTER */
+/* FOOTER query */
 
 .footer {
   padding: 8rem 3.2rem 0 6rem;
@@ -840,3 +840,73 @@ align-self: center;
 
 
 /*********************** BELOW 325PX *****************************************/
+
+
+@media (max-width:21em){
+  .logo {
+    height: 6rem;
+  }
+  
+  .header {
+    padding-left: 4rem;
+    
+  }
+
+  .heading-primary,
+.heading-secondary{
+  text-align: center;
+  font-size: 3.2rem;
+
+}
+
+.subheading--dark {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+  .hero{
+    margin-left: 0;
+  }
+
+  .section-hero {
+    padding: 9rem 0 0 0;      
+} 
+
+.button-hero{
+ display: flex;
+}
+
+.hero-image{
+  width: 140%;
+  margin-left: -5.4rem;
+}
+
+.section-discription{
+  margin-left: 2rem;
+  }
+
+  .fred-image{
+    width: 85%;
+  }
+ 
+.container-big {
+  margin-left: -4.6rem;
+
+}
+
+.pts p {
+  display: flex;
+}
+
+.pts-text {
+font-size: 1.5rem;
+ margin-left: 1rem;
+ margin-top: 0.5rem;
+}
+
+.footer {
+  padding: 8rem 4.2rem 0 4.2rem;
+}
+
+}
+
