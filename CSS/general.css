@@ -168,6 +168,15 @@ body {
 
   text-align: left;
 }
+
+.heading-secondary-cta{
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+  text-align: left;
+}
+
+
 .heading-secondary--blue {
   font-size: 4.4rem;
   line-height: 1.2;

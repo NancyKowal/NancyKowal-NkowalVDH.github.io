@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/general.css" />
     <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="stylesheet" href="CSS/queries.css"/>
     <link rel="stylesheet" href="trp.html">
    
     <link
@@ -23,6 +22,7 @@
     <!--HEADER-->
 
     <header class="header">
+      
       <a href="#home">
         <img
           class="logo"
@@ -35,7 +35,7 @@
           <li><a class="main-nav-link" href="#hero">Home</a></li>
           <li><a class="main-nav-link" href="#fred">Over Fred</a></li>
           <li>
-            <a class="main-nav-link" href="#personaltraining">personal training</a>
+            <a class="main-nav-link" href="#personaltraining">Personal training</a>
           </li>
           <li>
             <a class="main-nav-link" href="#pricing">Training Formule</a>
@@ -44,11 +44,11 @@
           <li><a class="main-nav-link nav-cta" href="#cta"> Contact </a></li>
         </ul>
       </nav>
-
       <button class="mobile-nav-btn">
         <ion-icon class="icon-nav-btn" name="menu-outline"></ion-icon>
         <ion-icon class="icon-nav-btn" name="close-outline"></ion-icon>
       </button>
+    
     </header>
 
     <!--MAIN HERO SECTION-->
@@ -68,10 +68,14 @@
               </div>
             </div>
             <div class="button-hero">
+              <div class="flexbox-btn1">
               <a href="#cta" class="btn btn--full margin-right-sm"
                 >Start met bewegen
               </a>
+              </div>
+              <div class="flexbox-btn2">
               <a href="#personaltraining" class="btn btn--outline">Personal Training &darr;</a>
+              </div>
             </div>
           </div>
           <div class="hero-img-box">
@@ -108,16 +112,19 @@
         </div>
       </section>
 
-      <!--SECTION PERSONAL TRAINING WORKS-->
+      <!--SECTION WHY-->
 
       <section class="section-why container-big" id="personaltraining">
         <div class="personaltraining-container">
-          <span class="subheading--dark">Waarom kiezen voor VDH</span>
-          <h2 class="heading-secondary">Personal Training</h2>
+          <div class="header-why">
+            <span class="subheading--dark">Waarom kiezen voor VDH</span>
+            <h2 class="heading-secondary">Personal Training</h2>
+          </div>
 
           <div class="personaltraining">
             <figure class="pts">
-              <p class="pts-name"> <ion-icon name="pulse-outline"></ion-icon> Conditietraining</p>
+                  <p class="pts-name"> <ion-icon name="pulse-outline"></ion-icon>  Conditietraining</p>
+            
 
               <blockquote class="pts-text">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro
@@ -299,7 +306,7 @@
         <div class="cta-container">
 
         <div class="cta-text-box">
-          <h2 class="heading-secondary">
+          <h2 class="heading-secondary-cta">
             Start nog vandaag jou persoonlijke begeleiding
           </h2>
 
@@ -308,7 +315,7 @@
             <a href="mailto:fredjevdh@msn.com" class="btn btn--full margin-right-sm">Mail ons </a>
             <a href="tel:0032-6-83567067" class="btn btn--outline">Bel ons</a>
           </div>
-             </div>
+        </div>
         <img src="img/ctaphoto.png" alt="fot man laptop en smartphone" width="500" class="cta-img-box">
       </div>
       <img src="" alt="">
@@ -318,10 +325,10 @@
 
     <!--FOOTER-->
 
-    <footer class="container-big footer" id="contact">
+    <footer class=" footer" id="contact">
       <div class="grid grid--footer">
         <div class="logo-col">
-          <a href="#" class="footer-logo">
+          <a href="#" class="footer-link footer-logo ">
             <img
               class="logo"
               alt="Omnifood Logo"
