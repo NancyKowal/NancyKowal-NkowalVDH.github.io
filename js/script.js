@@ -1,3 +1,20 @@
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent =  currentYear;
+
+
+
+const btnNavEl = document.querySelector(".mobile-nav-btn");
+const headerEl = document.querySelector("header")
+
+btnNavEl.addEventListener('click', function(){
+    headerEl.classList.toggle('nav-open')
+}
+);
+
+// Makt nav work ///
+
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
